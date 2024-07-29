@@ -1,0 +1,131 @@
+/* Reset de estilos básico para garantir consistência entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral para o body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para o header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav form {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header nav form input[type="text"] {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+header nav form button {
+    padding: 8px 12px;
+    font-size: 14px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Estilo para o main */
+main {
+    padding: 20px;
+}
+
+/* Estilo para as seções de categorias de fórum */
+.forum-categories {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.forum-categories h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.forum-categories ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.forum-categories ul li {
+    margin-bottom: 10px;
+}
+
+.forum-categories ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.forum-categories ul li a:hover {
+    color: #4CAF50;
+}
+
+/* Estilo para o footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos adicionais conforme necessário */
+
